@@ -1,0 +1,76 @@
+body {
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 4em; 
+}
+
+td {
+    width: 50%;
+}
+
+input {
+	margin-bottom: 5px;
+}
+
+a:visited{ 
+	color: blue; 
+}
+
+.control {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.control-button {
+    width: 100%;
+    min-height: 50px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.no-display {
+    display: none;
+}
+
+.status {
+    vertical-align: text-top;
+    float: top;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.message {
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.msg-time {
+    color: blue;
+}
+
+.cueMsg {
+    color: orange;
+}
+
+.selfMsg {
+    color: green;
+}
+
+.peerMsg {
+    color: red;
+}
+
+div.center_body {
+    width:800px; 
+    margin:0 auto;"
+}
