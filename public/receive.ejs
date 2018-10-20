@@ -102,8 +102,8 @@
                     // Create own peer object with connection to shared PeerJS server
                     peer = new Peer(null, {
                         debug: 2,
-                        host: 'localhost', 
-                        port: 9001, 
+                        host: '<%= peer_server %>',
+                        port: '<%= peer_port %>',
                         path: '/'
                     });
 
